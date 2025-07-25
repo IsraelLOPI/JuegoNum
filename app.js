@@ -1,7 +1,8 @@
-let numeroSecreto = generarNumeroAleatorio();
 let intentos = 1;
 let listaNumerosSeleccionados = [];
 let numeroMaximo = 10;
+let numeroSecreto = generarNumeroAleatorio();
+
 function asignarTextoElemento(elemento, texto){
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
